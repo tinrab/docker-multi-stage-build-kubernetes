@@ -1,6 +1,6 @@
 FROM golang:1.9.2-alpine3.6 AS build
 # Set working directory
-WORKDIR /go/src/github.com/tinrab/docker-multi-stage-build-kubernetes
+WORKDIR /go/src/app
 # Copy packages
 COPY hello-world hello-world
 COPY current-time current-time
